@@ -10,18 +10,18 @@
 </head>
 <body>
     <h1>Nany Podologia</h1>
-    <p><img src="img/Adriana Macedo.jpg" alt="logo" id="imagem_redonda"></p>
-
+    <p><img src="img/Adriana.jpg" alt="logo" id="imagem_redonda"></p>
+    <h2><abbr title="Podologa"><i><mark>Adriana Macedo</mark></i></abbr></h2> <hr> <br>
 <form action="https://formspree.io/f/moqzepyq"  method="POST" target="_blank">
     <label id="for">Preencha o formulário</label>
     <p>
         <label id="nom" for="Nome"><b>Nome:</b></label> <br> <!--label -> significa ETIQUETA-->
-        <input type="text" placeholder="Digite seu nome" required value="" name="nome"> 
+        <input type="text" placeholder="Digite seu nome" required value="" name="name" id="nam"> 
     </p> <!--required -> obriga a preencher; placeholder-> É um guardador de lugar-->
 
     <p>
         <label id="nom" for="Telefone"><B>Telefone:</B></label> <br>
-        <input type="text" placeholder="Digite seu telefone" name="Telefone">
+        <input type="text" placeholder="Digite seu telefone" name="Telefone" id="tel">
     </p>
 
     <p>
@@ -44,8 +44,8 @@
         <ul>
             <li>
                 <input type="checkbox" name="inflamada" id="inf" > Unha Inflamada<a href="img/unha infeccionada.jpg" target="_blank" ><img width="20" src="img/unha infeccionada.jpg" alt="logo"></a> <br><!--checkbox uma caixa para eu marcar-->
-                <input type="checkbox" name="inflamada" id="rac"> Pé com rachadura <a href="img/pés rachados.jpg" target="_blank" ><img width="25" src="img/pés rachados.jpg" alt="logo"></a><br>
-                <input type="checkbox" name="inflamada" id="infec"> Unha Infeccionada <a href="img/unha inflamada.jpg" target="_blank" ><img  width="25" src="img/unha inflamada.jpg" alt=""></a>
+                <input type="checkbox" name="inflamada" id="inf"> Pé com rachadura <a href="img/pés rachados.jpg" target="_blank" ><img width="25" src="img/pés rachados.jpg" alt="logo"></a><br>
+                <input type="checkbox" name="inflamada" id="inf"> Unha Infeccionada <a href="img/unha inflamada.jpg" target="_blank" ><img  width="25" src="img/unha inflamada.jpg" alt=""></a>
             </li>
         </ul>
     </p>
@@ -53,7 +53,7 @@
     <p>
        
     </p>
-    <button type="submit">enviar</button>
+    <button id="btn" type="submit">enviar</button>
 </form>
 </body>
 </html>

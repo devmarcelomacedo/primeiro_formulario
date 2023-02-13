@@ -1,5 +1,6 @@
 body {
    background-color: aquamarine;
+   
 }
 h1 {
     background-color: rgba(55, 103, 225, 0.953);
@@ -7,13 +8,17 @@ h1 {
     text-align: center;
     border: 2px solid black;
     border-radius: 5px;
+    
+}
+h2 {
+    color:white;
 }
 .pro {
     border: 3px solid black;
     background-color: brown;
     color: white;
     margin: 3px;
-    padding: 6px;
+    padding: 8px;
     border-radius: 5px;
     
 }
@@ -21,7 +26,11 @@ ul{
     list-style: none;
 }
 #nom {
+    height: 30px;
     color: rgb(34, 11, 246);
+    margin: 3px;
+    padding: 8px;
+    border: 3px;
 }
 #imagem_redonda {
     width: 90px;
@@ -32,7 +41,7 @@ ul{
     background-color: brown;
     color: white;
     margin: 3px;
-    padding: 6px;
+    padding: 8px;
     border-radius: 5px;
 }
 #amp {
@@ -40,6 +49,44 @@ ul{
     background-color: brown;
     color: white;
     margin: 3px;
-    padding: 6px;
+    padding: 8px;
     border-radius: 5px;
+}
+#btn {
+    background-color: chartreuse;
+    border-radius: 5px;
+    width: 90px;
+    height: 30px;
+    cursor: pointer;
+}
+#ema {
+    margin: 3px;
+    padding: 8px;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#tel {
+    margin: 3px;
+    padding: 8px;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#mens {
+    margin: 3px;
+    padding: 8px;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#nam {
+    margin: 3px;
+    padding: 8px;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#inf, rac, infec {
+    cursor: pointer;
 }
